@@ -4,8 +4,11 @@ export interface CustomButtonProps {
   title: string;
   containerStyles?: string;
   handleClick?: MouseEventHandler<HTMLButtonElement>;
-  btnType: "button" | "submit";
+  btnType?: "button" | "submit";
   disable?: boolean;
+  textStyles?: string;
+  rightIcon?: string;
+  isDisabled?: boolean;
 }
 
 export interface SearchManufacturerProps {
@@ -25,4 +28,5 @@ export interface CarProps {
   make: string;
   model: string;
   transmission: string;
+  year: number;
 }
