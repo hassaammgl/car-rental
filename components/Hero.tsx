@@ -23,7 +23,6 @@ const Hero = () => {
           <div className="hero__image-overlay"/>
         </div>
       </div>
-      // 1:48:09 mins
     </div>
   );
 };
